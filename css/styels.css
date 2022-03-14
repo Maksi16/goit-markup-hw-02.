@@ -3,6 +3,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #212121;
+  background-color: #fff;
 }
 :root {
   --brand-color: #2196f3;
@@ -43,7 +44,9 @@ body {
   color: var(--second-color);
 }
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.foot-link:hover,
+.foot-link:focus {
   color: var(--brand-color);
 }
 .hero {
@@ -64,6 +67,10 @@ body {
   line-height: 1.87;
   color: #fff;
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 .features-h {
   font-weight: 700;
@@ -108,12 +115,39 @@ body {
 .foot-text {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: #fff;
 }
 .foot-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
+  color: var(--second-color);
+}
+.btn-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background-color: var(--brand-color);
+  color: #fff;
+}
+.project-h {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--second-color);
 }
